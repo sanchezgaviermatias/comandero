@@ -1,0 +1,10 @@
+{
+  "name": "comandero",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esem --dts"
+  },
+  "devDependencies": {
+    "typescript": "5.3.3"
+  }
+}
