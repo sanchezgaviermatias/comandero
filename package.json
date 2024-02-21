@@ -5,6 +5,7 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
+    "watch": "tsup src/index.ts  --watch --onSuccess \"node dist/index.js\"",
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc"
   },
